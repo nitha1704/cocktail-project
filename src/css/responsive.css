@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+  .cocktail-single-page-item .wrap-thumbnail {
+    height: 60vw;
+  }
+}
+@media (max-width: 768px) {
+  .logo-navbar {
+    width: 40vw;
+  }
+}
+@media (max-width:576px) {
+  .hamburger-menu {
+    display:block;
+  }
+  .navbar-item2 {
+    display:none;
+  }
+}
