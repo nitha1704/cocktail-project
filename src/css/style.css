@@ -196,7 +196,9 @@ input#cocktailName {
   margin: 30px 0px;
 }
 .wrap-cocktail-item {
+  height: 100%;
   box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  background: #fff;
   transition: 0.5s;
 }
 .wrap-cocktail-item:hover {
@@ -221,8 +223,6 @@ input#cocktailName {
   font-size: 30px;
   font-weight: bold;
   letter-spacing: 1px;
-  height: 50px;
-  overflow-y: auto;
 }
 .cocktail-glass-type {
   font-size: 25px;
