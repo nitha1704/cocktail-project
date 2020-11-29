@@ -69,6 +69,7 @@ const CocktailSinglePage = () => {
     glassType,
     ingredients,
   } = cocktailData[0];
+
   return (
     <div className="cocktail-single-page-item">
       <div className="inner">
@@ -100,10 +101,13 @@ const CocktailSinglePage = () => {
             </div>
             <div className="ingredients drink-data">
               <span className="drink-info">Ingredients :</span>
-              {ingredients.map((ingredient) => {
-                return ingredient ? (
-                  <span className="bold">{ingredient}</span>
-                ) : null;
+              {ingredients.map((item, index)=>{
+                return (  item ?
+                  <span className="bold">
+                    {(index ? ", " : "") + item}
+                  </span>
+                  : null
+                );
               })}
             </div>
           </div>

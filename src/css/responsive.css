@@ -8,11 +8,14 @@
     width: 40vw;
   }
 }
-@media (max-width:576px) {
+@media (max-width: 576px) {
+  .loading {
+    width: 60vw;
+  }
   .hamburger-menu {
-    display:block;
+    display: block;
   }
   .navbar-item2 {
-    display:none;
+    display: none;
   }
 }

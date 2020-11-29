@@ -59,6 +59,7 @@ nav.desktop.scrollBarActive {
   top: 0;
 }
 nav.desktop .inner {
+  width: 90vw;
   padding: 20px 0px;
 }
 
